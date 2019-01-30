@@ -29,3 +29,22 @@ function pauseBoth() {
     pauseSicko();
     pauseBamba();
 }
+
+function sickoVolume(){
+	var sickomode = document.getElementById("sicko");
+	var sickoSlider = document.getElementById("sickoSlider");
+	sickomode.volume=sickoSlider.value/100;
+}
+
+function bamaVolume(){
+	var mobamaba = document.getElementById("bamba");
+	var bamabSlider = document.getElementById("bambaSlider");
+	mobamaba.volume=bamabSlider.value/100;
+}
+
+function resetVolume(){
+	var sickoSlider = document.getElementById("sickoSlider");
+	var bamabSlider = document.getElementById("bambaSlider");
+	sickoSlider.value=50;
+	bamabSlider.value=50;
+}
