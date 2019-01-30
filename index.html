@@ -1,6 +1,31 @@
 <html>
+<script src="myJs.js"></script>
+<audio id="sicko" src="sicko.mp3"></audio>
+<audio id="bamba" src="bamba.mp3"></audio>
+<link rel = "stylesheet"
+      type = "text/css"
+      href = "stylesheet.css" />
+
   <head>
+      <h1>SickoBambaMode</h1>
+      <br>
   </head>
+
   <body>
+    <h2>Play</h2>
+    <h3>Sicko Mode | Mo Bamba</h3>
+    <div style="text-align: center;">
+        <input title="mo bamba" type="range" min="1" max="100" value="50" class="slider" id="sicko">
+        <input title="mo bamba" type="range" min="1" max="100" value="50" class="slider" id="bamba">
+        <br>
+        <button id="sickoButton" onclick="playSicko()">Play Sicko Mode</button>
+        <button id="bambaButton" onclick="playBamba()">Play Mo Bamba</button>
+        <br><br><br>
+        <button id="pauseSicko" onclick="pauseSicko()">Pause Sicko mode</button>
+        <button id="pauseBamba" onclick="pauseBamba()">Pause Mo Bamba</button>
+        <br><br><br><br>
+        <button id="boffum" onclick="sweetJesus()">Go Sicko Bamba Mode</button><br><br>
+        <button id="pauseBoth" onclick="pauseBoth()">Pause Both</button><br><br>
+    </div>
   </body>
 </html>
