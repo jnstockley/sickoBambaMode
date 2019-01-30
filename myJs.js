@@ -48,3 +48,7 @@ function resetVolume(){
 	sickoSlider.value=50;
 	bamabSlider.value=50;
 }
+
+function credFwd() {
+    window.location = "credits.html";
+}
