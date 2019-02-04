@@ -47,6 +47,8 @@ function resetVolume(){
 	var bamabSlider = document.getElementById("bambaSlider");
 	sickoSlider.value=50;
 	bamabSlider.value=50;
+	sickomode.volume=.5;
+	mobamba.volume=.5;
 }
 
 function credFwd() {
