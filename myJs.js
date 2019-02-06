@@ -54,3 +54,12 @@ function resetVolume(){
 function credFwd() {
     window.location = "credits.html";
 }
+
+function sweetVictory() {
+	var sweetVictory = document.getElementById("sweetVictory");
+	sweetVictory.style.visibility = "visible";
+	sweetVictory.play();
+	setTimeout(function(){
+		sweetVictory.style.visibility="hidden";
+	}, 82000);
+}

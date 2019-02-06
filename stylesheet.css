@@ -6,6 +6,12 @@
 
 }
 
+@keyframes antispin {
+    from{transform: rotate(360deg)}
+    to{transform: rotate(0deg)}
+
+}
+
 #slidecontainer {
     display: block;
     margin-right: auto;
@@ -42,9 +48,12 @@ p {
 }
 
 
-body {
+#backgroundImg {
     background: url(bg.jpg);
     background-size: cover;
+	//overflow: hidden;
+	animation: spin 5s linear infinite;
+
 }
 
 /*
@@ -54,3 +63,16 @@ img{
     animation: spin 5s linear infinite;
     z-index: -1;
 }*/
+
+#sweetVictory {
+	height: 300px;
+	visibility: hidden;
+}
+
+body{
+	//overflow: hidden;
+}
+
+#stuffAndThings {
+	animation: antispin 5s linear infinite;
+}
