@@ -15,11 +15,10 @@
 
   <head>
     <h1>SickoBambaMode</h1>
-    <title>SickoBambaMode</title>
     <br>
   </head>
 
-  <body>
+  <body class="spinner">
     <h2>Play</h2>
     <h3>Sicko Mode | Mo Bamba</h3>
     <div style="text-align: center;">
@@ -27,9 +26,10 @@
         <input title="mo bamba" onChange="bamaVolume()" type="range" min="1" max="100" value="50" class="slider" id="bambaSlider">
         <br>
         <button id="sickoButton" onclick="playSicko()">Play Sicko Mode</button>
-        <button id="bambaButton" onclick="playBamba()">Play Mo Bamba</button>
+        <button id="bambaButton" onclick="playBamba()">Play Mo Bamba</button><br><br>
+        <button>Play Sweet Victory</button>
         <br><br><br>
-        <button id="pauseSicko" onclick="pauseSicko()">Pause Sicko mode</button>
+        <button id="pauseSicko" onclick="pauseSicko()">Pause Sicko Mode</button>
         <button id="pauseBamba" onclick="pauseBamba()">Pause Mo Bamba</button>
         <br><br><br><br>
         <button id="boffum" onclick="sweetJesus()">Go Sicko Bamba Mode</button><br><br>
