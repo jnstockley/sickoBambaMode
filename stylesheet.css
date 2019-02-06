@@ -18,6 +18,22 @@
     margin-left: auto;
 }
 
+#backgroundImg {
+    background: url(bg.jpg);
+    background-size: cover;
+    animation: spin 5s linear infinite;
+
+}
+
+#sweetVictory {
+    height: 300px;
+    visibility: hidden;
+}
+
+#stuffAndThings {
+    animation: antispin 5s linear infinite;
+}
+
 h1 {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -42,37 +58,22 @@ h3 {
 
 p {
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif
+    font-family: "Comic Sans MS", cursive, sans-serif;
     color: deeppink;
     z-index: 99999;
 }
 
 
-#backgroundImg {
-    background: url(bg.jpg);
-    background-size: cover;
-	//overflow: hidden;
-	animation: spin 5s linear infinite;
-
-}
-
-/*
-img{
-    width: 100%;
-    height: 100%;
-    animation: spin 5s linear infinite;
-    z-index: -1;
-}*/
-
-#sweetVictory {
-	height: 300px;
-	visibility: hidden;
-}
-
 body{
-	//overflow: hidden;
+    background-image: url("bg.jpg");
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-#stuffAndThings {
-	animation: antispin 5s linear infinite;
+a {
+    color: deeppink;
+}
+
+a:visited {
+    color: deeppink;
 }
