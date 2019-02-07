@@ -1,5 +1,4 @@
-/* This file contains the basic stylistic elements for SickoBambaMode. */
-
+/*By Jack Stockley*/
 @keyframes spin {
     from{transform: rotate(0deg)}
     to{transform: rotate(360deg)}
@@ -11,7 +10,7 @@
     to{transform: rotate(0deg)}
 
 }
-
+/*By Raj Joshi*/
 #slidecontainer {
     display: block;
     margin-right: auto;
@@ -33,7 +32,7 @@
 #stuffAndThings {
     animation: antispin 5s linear infinite;
 }
-
+/*By Mason Ansari*/
 h1 {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;

@@ -1,5 +1,4 @@
-/* so i got pause/play working so now we just need 'on the fly' volume changing */
-
+/* By Mason Ansari */
 function playSicko() {
     var sickomode = document.getElementById("sicko");
     sickomode.play();
@@ -30,6 +29,7 @@ function pauseBoth() {
     pauseBamba();
 }
 
+/*By Jack Stockley*/
 function sickoVolume(){
 	var sickomode = document.getElementById("sicko");
 	var sickoSlider = document.getElementById("sickoSlider");
@@ -42,6 +42,7 @@ function bamaVolume(){
 	mobamaba.volume=bamabSlider.value/100;
 }
 
+/*By Raj Joshi*/
 function resetVolume(){
 	var sickoSlider = document.getElementById("sickoSlider");
 	var bamabSlider = document.getElementById("bambaSlider");
@@ -55,6 +56,7 @@ function credFwd() {
     window.location = "credits.html";
 }
 
+/*By Jack Stockley*/
 function sweetVictory() {
 	var sweetVictory = document.getElementById("sweetVictory");
 	sweetVictory.style.visibility = "visible";
